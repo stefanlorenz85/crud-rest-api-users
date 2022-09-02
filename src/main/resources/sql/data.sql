@@ -1,0 +1,6 @@
+INSERT INTO USERS (id, name) VALUES
+  (1, 'Jon'),
+  (2, 'Tanya'),
+  (3, 'Eric');
+  
+ALTER TABLE USERS ALTER COLUMN ID RESTART WITH (SELECT MAX(ID) FROM USERS) + 1;
