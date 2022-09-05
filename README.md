@@ -1,5 +1,5 @@
 # Spring Boot: RESTful CRUD Users API
-This Spring Boot service provides serveral http endpoints for handling users data per JSON. Creating a new user also stores an encrypted default password. In-memory Database H2 is used. Service is tested with Java OpenJDK 11.
+This Spring Boot service provides serveral http endpoints for handling users data per JSON. Creating a new user also stores an encrypted default password. In-memory Database H2 is used. Service is tested with Java OpenJDK 11. Endpoints are not secured and can be used without authentication and authorization.
 
 ## Patterns & Paradigms
 * REST
@@ -61,9 +61,7 @@ See http://localhost:8080/h2-console
 
 ----
 ### Swagger
-Swaggercan be used while service is running.To test the API use the Swagger http://localhost:8080/swagger-ui/index.html]. Also Actuator endpoints are listed.
-
-The endpoints are not secured and can be used without any authentification and authorization.
+Swagger can be used while service is running. To test the API use the Swagger http://localhost:8080/swagger-ui/index.html]. Also Actuator endpoints are listed.
 
 ----
 ## Bugs
