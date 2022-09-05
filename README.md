@@ -1,4 +1,4 @@
-# RESTful CRUD Users API
+# Spring Boot: RESTful CRUD Users API
 This Spring Boot service provides serveral http endpoints for handling users data per JSON. Creating a new user also stores an encrypted default password. In-memory Database H2 is used. Service is tested with Java OpenJDK 11.
 
 ## Patterns & Paradigms
